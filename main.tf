@@ -4,4 +4,5 @@ resource "helm_release" "this" {
   repository = var.repository
   chart      = var.chart
   wait       = var.wait
+  values     = var.values
 }

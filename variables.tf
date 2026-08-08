@@ -30,3 +30,10 @@ variable "wait" {
   type        = bool
   default     = false
 }
+
+
+variable "values" {
+  description = "Please specify values for your deployment"
+  type        = list(any)
+  default     = []
+}
