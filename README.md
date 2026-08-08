@@ -33,8 +33,8 @@ module name {
   wait       = false
 
   values     = [<<-EOF
-    replicaCount = 1
-  EOF
+      replicaCount: 1
+    EOF
   ]
 }
 
