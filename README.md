@@ -26,7 +26,7 @@ provider "helm" {
 #### Add below code to your main.tf file
 ```
 module name {
-  source     = "Elewartor/adddeploy/helm"
+  source     = "Elewartor/appdeploy/helm"
   name       = "nginx-ingress-controller"
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "nginx-ingress-controller"
