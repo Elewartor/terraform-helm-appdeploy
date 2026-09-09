@@ -37,3 +37,9 @@ variable "values" {
   type        = list(any)
   default     = []
 }
+
+variable "version" {
+  description = "Please specify version for your deployment"
+  type        = string
+  default     = null
+}

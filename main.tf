@@ -3,6 +3,9 @@ resource "helm_release" "this" {
   namespace  = var.namespace
   repository = var.repository
   chart      = var.chart
+  version    = var.version
   wait       = var.wait
   values     = var.values
 }
+
+

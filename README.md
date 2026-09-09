@@ -30,8 +30,12 @@ module name {
   namespace  = "default"
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "nginx-ingress-controller"
+  version    = "0.0.1"
+
+# (Optional) False by default
   wait       = false
 
+# (Optional) Values for your deployment
   values     = [<<-EOF
       replicaCount: 1
     EOF
