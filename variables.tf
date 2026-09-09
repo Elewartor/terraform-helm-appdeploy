@@ -38,8 +38,8 @@ variable "values" {
   default     = []
 }
 
-variable "version" {
-  description = "Please specify version for your deployment"
+variable "chart_version" {
+  description = "Please specify chart version for your deployment"
   type        = string
   default     = null
 }
